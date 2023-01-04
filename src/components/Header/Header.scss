@@ -1,0 +1,41 @@
+@import '../../styles/variables';
+
+
+header {
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 16px;
+    padding-left: 60px;
+    color: #000;
+    text-decoration: none;
+}
+
+.navlink ul {
+    display: block;
+    list-style-type: none;
+    padding-right: 60px;
+}
+
+.navlink ul li {
+    display: inline-block;
+    padding: 0 8px 10px 8px;
+}
+
+.navlink ul li a {
+    color: #01a7e9;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navlink ul li a:hover {
+    color: $primary-color;
+}

@@ -1,0 +1,46 @@
+@import '../../styles/variables';
+
+.ourservices-heading {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px 0px 15px 0px;
+}
+.ourservices-heading-underline {
+    margin: 0px 495px 0px 495px;
+}
+.ourservices-container-main {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 150px 0px 150px;
+}
+.ourservices-container {
+    padding: 0px 15px 0px 15px;
+    position: relative;
+}
+.ourservices-container img {
+    width: 100%;
+}
+.ourservices-content h1{
+    position: absolute;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    top: 45%;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 20px 0px;
+}
+.ourservices-content p{
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    top: 55%;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 0px 30px 0px;
+}
+.ourservices-content button {
+    border: 1px solid #000;
+    background-color: none;
+    padding: 10px;
+    font-size: 12px;
+}
