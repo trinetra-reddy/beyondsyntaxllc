@@ -8,31 +8,33 @@
     height: 80vh;
     opacity: 0.8;
 }
-
-.aboutbeyondsyntax-content h2{
+.aboutbeyondsyntax-content {
     position: absolute;
-    color: #fff;
     top: 30%;
     left: 8%;
+}
+
+.aboutbeyondsyntax-content h2{
+    color: #fff;
     font-size: 38px;
     font-weight: 700;
 }
 .aboutbeyondsyntax-content p{
-    position: absolute;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
     max-width: 555px;
-    top: 45%;
-    left: 8%;
 }
 .aboutbeyondsyntax-content button{
-    border: 1px solid #000;
-    background-color: none;
+    border: 1px solid #fff;
+    background: none;
     padding: 10px 32px;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
-    top: 40%;
+}
+.aboutbeyondsyntax-content button:hover {
+    background-color: #0464b0;
 }
 
 

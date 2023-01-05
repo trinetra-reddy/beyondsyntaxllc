@@ -20,27 +20,34 @@
 .ourservices-container img {
     width: 100%;
 }
-.ourservices-content h1{
+.ourservices-content {
     position: absolute;
+    top: 45%;
+}
+.ourservices-content h1{
     color: #fff;
     font-size: 28px;
     font-weight: 400;
-    top: 45%;
     padding: 0px 10px 0px 10px;
     margin: 0px 0px 20px 0px;
 }
 .ourservices-content p{
-    position: absolute;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
-    top: 55%;
     padding: 0px 10px 0px 10px;
     margin: 0px 0px 30px 0px;
 }
+.ourservices-content-btn {
+    margin-left: 10px;
+}
 .ourservices-content button {
-    border: 1px solid #000;
-    background-color: none;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
     padding: 10px;
     font-size: 12px;
+}
+.ourservices-content button:hover {
+    background-color: $primary-color;
 }

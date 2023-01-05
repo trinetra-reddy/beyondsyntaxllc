@@ -21,8 +21,8 @@ const Ourservices = () => {
                     <div className="ourservices-content">
                         <h1>IT Staffing</h1>
                         <p>lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type  </p>
-                        <button>VIEW MORE</button>
+                        standard dummy text  printer took a galley of type  </p>
+                        <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>
                 <div className="ourservices-container">
@@ -30,8 +30,8 @@ const Ourservices = () => {
                     <div className="ourservices-content">
                         <h1>Data & Infrastructure</h1>
                         <p>lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type  </p>
-                        <button>VIEW MORE</button>
+                        standard dummy text ever since the 1500s, when an  printer took a galley of type  </p>
+                        <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>
                 <div className="ourservices-container">
@@ -39,8 +39,8 @@ const Ourservices = () => {
                     <div className="ourservices-content">
                         <h1>Enterprise CMS</h1>
                         <p>lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type  </p>
-                        <button>VIEW MORE</button>
+                        standard dummy text ever since the 1500s, </p>
+                        <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>
             </div>
