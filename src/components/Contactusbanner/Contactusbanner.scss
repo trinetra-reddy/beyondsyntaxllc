@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+.contactusbanner {
+    position: relative;
+}
+.contactusbanner img{
+    width: 100%;
+}
+.contactusbanner-text{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+.contactusbanner-heading {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+.contactusbanner-paragraph {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
