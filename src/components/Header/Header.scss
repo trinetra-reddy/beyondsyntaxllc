@@ -2,7 +2,11 @@
 
 
 header {
-    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    transition: all 0.5s;
+    z-index: 997;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar {
@@ -14,7 +18,7 @@ header {
 .logo {
     font-size: 16px;
     padding-left: 60px;
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 

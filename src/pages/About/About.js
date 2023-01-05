@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Footer, Header } from "../../components";
+import { Footer, Header, Aboutbanner, Howcanwehelpyou, Whypartnerwithus, Visionmission } from "../../components";
 import { CONSTANTS } from "../../utils/constants";
 import './About.scss';
 
@@ -8,9 +8,10 @@ const About = () => {
     return (
         <div>
             <Header />
-            <div>
-                <span>About Page!!</span> Link to <Link to={CONSTANTS.ROUTES.HOME_PAGE}>Home</Link>
-            </div>
+            <Aboutbanner />
+            <Whypartnerwithus />
+            <Visionmission />
+            <Howcanwehelpyou />
             <Footer />
         </div>
     );

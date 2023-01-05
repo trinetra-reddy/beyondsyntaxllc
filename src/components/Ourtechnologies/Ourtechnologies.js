@@ -1,6 +1,6 @@
 import React from "react";
 import './Ourtechnologies.scss';
-import backgroundimage from "../Ourtechnologies/bannerimage_1.jpg";
+import backgroundimage from "../Ourtechnologies/ourtechnologiesbg.jpg";
 import image_1 from "../Ourtechnologies/ourtechnologiesimg_1.jpg";
 import image_2 from "../Ourtechnologies/ourtechnologiesimg_2.jpg";
 import image_3 from "../Ourtechnologies/ourtechnologiesimg_3.jpg";

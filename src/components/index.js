@@ -7,5 +7,8 @@ import Whywithus from "./Whywithus/Whywithus";
 import Howcanwehelpyou from "./Howcanwehelpyou/Howcanwehelpyou";
 import Ourtechnologies from "./Ourtechnologies/Ourtechnologies";
 import Ourclients from "./Ourclients/Ourclients";
+import Aboutbanner from "./Aboutusbanner/Aboutusbanner";
+import Whypartnerwithus from "./Whypartnerwithus/Whypartnerwithus";
+import Visionmission from "./Visionmission/Visionmission";
 
-export { Header, Footer, Imagecarousel, Ourservices, Aboutbeyondsyntax, Whywithus, Howcanwehelpyou, Ourtechnologies, Ourclients};
+export { Header, Footer, Imagecarousel, Ourservices, Aboutbeyondsyntax, Whywithus, Howcanwehelpyou, Ourtechnologies, Ourclients, Aboutbanner, Whypartnerwithus, Visionmission,};

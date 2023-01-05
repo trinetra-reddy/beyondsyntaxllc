@@ -1,0 +1,43 @@
+@import '../../styles/variables';
+
+
+.visionmission {
+    position: relative;
+}
+.visionmission-bgwrapper img {
+    width: 100%;
+    height: 70vh;
+}
+.visionmission-content {
+    position: absolute;
+    padding: 0px 110px 0px 110px;
+    display: flex;
+    flex-direction: row;
+    top: 35%;
+}
+.visionmission-column-1 {
+    width: 50%;
+}
+.visionmission-column-1-heading {
+    font-size: 28px;
+    color: #18d26e;
+    font-weight: 600;
+}
+.visionmission-column-1-paragraph {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+.visionmission-column-2 {
+    width: 50%;
+}
+.visionmission-column-2-heading {
+    font-size: 28px;
+    color: #18d26e;
+    font-weight: 600;
+}
+.visionmission-column-2-paragraph {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}

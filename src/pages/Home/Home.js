@@ -15,9 +15,6 @@ const Home = () => {
             <Howcanwehelpyou />
             <Ourtechnologies />
             <Ourclients />
-            <div>
-                <span>Home Page!!</span> Link to <Link to={CONSTANTS.ROUTES.SERVICES_PAGE}>Services</Link>
-            </div>
             <Footer />
         </div>
     );
