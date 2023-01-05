@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+
+.rpomps {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 150px 20px 150px;
+}
+.rpo {
+    flex: 50%;
+}
+.rpo-heading {
+    color: #18d26e;
+    font-size: 28px;
+    font-weight: 500;
+}
+.rpo-paragraph {
+    font-size: 16px;
+}
+.mps {
+    flex: 50%;
+}
+.mps-heading {
+    color: #18d26e;
+    font-size: 28px;
+    font-weight: 500;
+}
+.mps-paragraph {
+    font-size: 16px;
+}
+

@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+.itstaffingbanner-imgwrapper {
+    position: relative;
+}
+.itstaffingbanner-imgwrapper img {
+    width: 100%;
+}
+.itstaffingbanner-imgwrapper-text {
+    position: absolute;
+    color: #fff;
+    top: 45%;
+}
+.itstaffingbanner-imgwrapper-heading {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+}
+.itstaffingbanner-imgwrapper-paragraph {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0px 60px 0px 60px;
+    text-align: center;
+}
