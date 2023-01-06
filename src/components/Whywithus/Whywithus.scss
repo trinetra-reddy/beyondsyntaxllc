@@ -7,6 +7,7 @@
 }
 .whywithus-image {
     flex: 50%;
+    padding-right: 15px;
 }
 .whywithus-image img {
     width: 100%;
@@ -18,9 +19,11 @@
 .whywithus-content-heading {
     font-size: 28px;
     font-weight: 700;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 .whywithus-content-paragraph {
     font-size: 16px;
     font-weight: 400;
+    padding-left: 15px;
 }

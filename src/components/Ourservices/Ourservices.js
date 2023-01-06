@@ -20,8 +20,8 @@ const Ourservices = () => {
                     <img src={ourservicesimg_1}  alt="ourserviceimg_1" />
                     <div className="ourservices-content">
                         <h1>IT Staffing</h1>
-                        <p>lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text  printer took a galley of type  </p>
+                        <p>Beyond Syntax LLC is a full-service provider of contingent
+                             staffing in support of technology solutions for industry leading Enterprise Technology Projects. </p>
                         <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>
@@ -29,8 +29,8 @@ const Ourservices = () => {
                     <img src={ourservicesimg_2}  alt="ourserviceimg_2" />
                     <div className="ourservices-content">
                         <h1>Data & Infrastructure</h1>
-                        <p>lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, when an  printer took a galley of type  </p>
+                        <p>Beyond Syntax LLC is a full-service provider of contingent staffing in support of technology solutions 
+                            for industry leading Enterprise Technology Projects.  </p>
                         <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>
@@ -38,8 +38,8 @@ const Ourservices = () => {
                     <img src={ourservicesimg_3}  alt="ourserviceimg_3" />
                     <div className="ourservices-content">
                         <h1>Enterprise CMS</h1>
-                        <p>lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                        standard dummy text ever since the 1500s, </p>
+                        <p>Beyond Syntax LLC is a full-service provider of contingent staffing in support of technology solutions 
+                            for industry leading Enterprise Technology Projects. </p>
                         <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>

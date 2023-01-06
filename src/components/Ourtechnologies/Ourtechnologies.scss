@@ -14,7 +14,7 @@
 }
 .ourtechnologies-heading {
     text-align: center;
-    color: #fff;
+    color: $white;
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 40px;
@@ -29,19 +29,19 @@
 }
 .ourtechnologies-image img{
     width: 100%;
-    border: 2px solid #fff;
+    border: 2px solid $white;
 }
 .ourtechnologies-button-wrapper {
     text-align: center;
 }
 .ourtechnologies-button-wrapper button{
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid $white;
+    color: $white;
     font-size: 16px;
     padding: 10px 32px;
     background: none;
     text-align: center;
 }
 .ourtechnologies-button-wrapper button:hover {
-    background-color: #01a7e9;
+    background-color: $secondary-color;
 }

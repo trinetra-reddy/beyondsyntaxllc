@@ -16,9 +16,9 @@ const Itstaffingcontent = () => {
                 <div className="itstaffingcontent-2-content">
                     <div className="itstaffingcontent-2-content-heading"> How Can We Help You ?</div>
                     <div className="itstaffingcontent-2-content-heading-ul"><hr /></div>
-                    <div className="itstaffingcontent-2-content-paragraph">Unicorntek strongly believe in the above statement, and so have taken IT Staffing to an all new level. Yes, we have a dedicated IT staffing department consisting of skilled and experienced IT recruiters,
-                        research analysts and Human resources managers. We follow a defined process when it comes to sourcing candidates at our client’s place. Our team of recruiters and research analysts work in a coordinated manner to ensure timely results by providing the exact candidate’s as per the requirement of the client and that too within the defined timeframe.
-                        In today’s highly competitive scenario,  sets and qualification within the time frame, as per mentioned by the client.
+                    <div className="itstaffingcontent-2-content-paragraph">Beyond Syntax LLC is founded to serve its customers with a core set of values. These core values guide our actions as we engage with our customers, employees, partners, and all whom we serve. We believe strongly in the value of high-quality processes to deliver consistent results,
+                     and a continuous improvement process to ensure we can be nimble and adopt quickly to technology, industry and market change.
+                        Our areas of specialization include Technical Staffing, Training to the Employees, Application Development, Business Strategy, Human Resources and Talent Acquisition, Information Technology, and Technical Support.
                     </div>
                 </div>
                 <div className="itstaffingcontent-2-image">

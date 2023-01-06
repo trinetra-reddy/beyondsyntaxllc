@@ -8,10 +8,8 @@ const Aboutbeyondsyntax = () => {
             <img src={backgroundimg} alt="backgroundimage" />
             <div className="aboutbeyondsyntax-content">
                 <h2>About BeyondSyntaxllc</h2>
-                <p>lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type  
-                    lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took</p>
+                <p>With over 13 years of experience in the IT industry, the founders of Beyond Syntax bring technical skill, 
+                    industry insight, business experience and thought leadership to all our service engagements.</p>
                 <button>VIEW DETAILS</button>
             </div>
         </div>

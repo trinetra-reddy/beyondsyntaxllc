@@ -6,7 +6,7 @@ header {
     width: 100%;
     transition: all 0.5s;
     z-index: 997;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: $header-bg;
 }
 
 .navbar {
@@ -18,10 +18,13 @@ header {
 .logo {
     font-size: 16px;
     padding-left: 60px;
-    color: #fff;
+    color: $white;
     text-decoration: none;
 }
 
+.logo:hover {
+    color: $primary-color;
+}
 .navlink ul {
     display: block;
     list-style-type: none;
@@ -34,7 +37,7 @@ header {
 }
 
 .navlink ul li a {
-    color: #01a7e9;
+    color: $secondary-color;
     font-size: 13px;
     text-decoration: none;
     font-weight: 700;

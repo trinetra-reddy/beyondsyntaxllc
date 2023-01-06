@@ -1,46 +1,100 @@
 @import '../../styles/variables';
 
-
-
-.contactusform {
+.contactus {
     display: flex;
     flex-direction: row;
-    padding: 0px 150px 0px 150px;
+    padding: 30px 150px 30px 150px;
+    background-color: #F2F4F4;
 }
-.contactusform-col1 {
+
+.contactus-col1 {
     flex: 50%;
 }
-.contactusform-col1-heading1 {
+
+.contactus-col1-heading1 {
     font-size: 14px;
-    color: #000;
+    color: $black;
     font-weight: 500;
 }
-.contactusform-col1-heading2 {
-    font-size: 32px;
-    color: #000;
+
+.contactus-col1-heading2 {
+    font-size: 28px;
+    color: $black;
     font-weight: 700;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
-.contactusform-col1-wrpr1 {
+
+.contactus-col1-wrpr1 {
     display: flex;
     flex-direction: row;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
-.contactusform-col1-wrpr1 img {
-    width: 45px;
-    height: 45px;
+
+.contactus-col1-wrpr1 img {
+    width: 35px;
+    height: 35px;
 }
-.contactusform-col1-wrpr1-text {
+
+.contactus-col1-wrpr1-text {
     padding-left: 20px;
 }
-.contactusform-col1-wrpr1-text-h {
-    font-size: 18px;
+
+.contactus-col1-wrpr1-text-h {
+    font-size: 16px;
     font-weight: 500;
 }
-.contactusform-col1-wrpr1-text-p {
-    font-size: 18px;
+
+.contactus-col1-wrpr1-text-p {
+    font-size: 16px;
     font-weight: 500;
 }
-.contactusform-col2 {
-    flex: 60%;
+
+.contactus-col2 {
+    flex: 70%;
+    padding: 20px 0px 20px 0px;
+}
+
+.contactus-col2-input {
+    margin-top: 20px;
+}
+
+.contactus-inputs {
+    background-color: $white;
+    border: 1px solid $black;
+    border-radius: 3px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.contactus-col2-input2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactus-col2-input2-sub1 {
+    flex: 50%;
+    padding-right: 10px;
+}
+
+.contactus-col2-input2-sub2 {
+    flex: 50%;
+    padding-left: 10px;
+}
+
+#contactus-inputmessage {
+    min-height: 100px;
+}
+
+.contactus-button {
+    font-size: 12px;
+    font-weight: 400;
+    height: 40px;
+    width: 100px;
+    color: $black;
+    border: none;
+    background-color: $primary-color;
+}
+.contactus-button:hover {
+    background-color: $secondary-color;
 }

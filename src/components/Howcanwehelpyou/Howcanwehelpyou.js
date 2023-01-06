@@ -10,11 +10,11 @@ const Howcanwehelpyou = () => {
                 How can we help you ?
             </div>
             <div className="howcanwehelpyou-content-paragraph">
-            lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type lorem is simply 
-            dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-            standard dummy text ever since the 1500s, when an unknown printer took a galley of type  
-            lorem is simply dummy text of  
+            Beyond Syntax LLC is founded to serve its customers with a core set of values. 
+            These core values guide our actions as we engage with our customers, employees, partners, and 
+            all whom we serve. We believe strongly in the value of high-quality processes to deliver 
+            consistent results, and a continuous improvement process to ensure we can be nimble and adopt 
+            quickly to technology, industry and market change 
             </div>
         </div>
         <div className="howcanwehelpyou-image">

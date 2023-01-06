@@ -6,75 +6,87 @@ import icon_3 from "../Contactusform/contactusicon1.png";
 
 const Contactusform = () => {
     return (
-        <div className="contactusform ">
-            <div className="contactusform-col1">
-                <div className="contactusform-col1-heading">
-                    <div className="contactusform-col1-heading1">LET'S TALK</div>
-                    <div className="contactusform-col1-heading2">Call us NOW</div>
+        <div className="contactus ">
+            <div className="contactus-col1">
+                <div className="contactus-col1-heading">
+                    <div className="contactus-col1-heading1">LET'S TALK</div>
+                    <div className="contactus-col1-heading2">Call us NOW</div>
                 </div>
-                <div className="contactusform-col1-wrpr1">
+                <div className="contactus-col1-wrpr1">
                     <img src={icon_1} alt="icon_1" />
-                    <div className="contactusform-col1-wrpr1-text">
-                        <div className="contactusform-col1-wrpr1-text-h">BEYONDSYNTAXLLC</div>
-                        <div className="contactusform-col1-wrpr1-text-p">support@beyondsyntaxllc</div>
+                    <div className="contactus-col1-wrpr1-text">
+                        <div className="contactus-col1-wrpr1-text-h">BEYONDSYNTAXLLC</div>
+                        <div className="contactus-col1-wrpr1-text-p">support@beyondsyntaxllc</div>
                     </div>
                 </div>
-                <div className="contactusform-col1-wrpr1">
+                <div className="contactus-col1-wrpr1">
                     <img src={icon_2} alt="icon_1" />
-                    <div className="contactusform-col1-wrpr1-text">
-                        <div className="contactusform-col1-wrpr1-text-h">Phone:</div>
-                        <div className="contactusform-col1-wrpr1-text-p">+99999999999</div>
+                    <div className="contactus-col1-wrpr1-text">
+                        <div className="contactus-col1-wrpr1-text-h">Phone:</div>
+                        <div className="contactus-col1-wrpr1-text-p">+99999999999</div>
                     </div>
                 </div>
-                <div className="contactusform-col1-wrpr1">
+                <div className="contactus-col1-wrpr1">
                     <img src={icon_3} alt="icon_1" />
-                    <div className="contactusform-col1-wrpr1-text">
-                        <div className="contactusform-col1-wrpr1-text-h">Adress</div>
-                        <div className="contactusform-col1-wrpr1-text-p">30323, l street, india</div>
+                    <div className="contactus-col1-wrpr1-text">
+                        <div className="contactus-col1-wrpr1-text-h">Adress</div>
+                        <div className="contactus-col1-wrpr1-text-p">30323, l street, india</div>
                     </div>
                 </div>
             </div>
-            <div className="contactusform-col2">
-                <div className="contactusform-col2-input">
-                    <input
-                        className="g-contactus-inputs"
-                        id="name"
-                        placeholder="Full Name"
-                        name="name"
-                        type="text"
-                    ></input>
-                </div>
-                <div className="contactusform-col2-input">
-                    <input
-                        className="g-contactus-inputs"
-                        id="name"
-                        placeholder="E-mail"
-                        name="name"
-                        type="text"
-                    ></input>
-                </div>
-                <div className="contactusform-col2-input">
-                    <input
-                        className="g-contactus-inputs"
-                        id="name"
-                        placeholder="Phone Number"
-                        name="name"
-                        type="text"
-                    ></input>
-                </div>
-                <div className="contactusform-col2-input">
-                    <input
-                        className="g-contactus-inputs"
-                        id="name"
-                        placeholder="Your Message Here"
-                        name="name"
-                        type="text"
-                    ></input>
-                </div>
-                <div className="g-contactus-button-wrapper">
-                  <button className="g-contactus-button" type="submit">SUBMIT
-                  </button>
-                </div>
+            <div className="contactus-col2">
+                <form
+                    className="contactus-form"
+                    id="fs-frm"
+                    name="simple-contact-form"
+                    acceptCharset="utf-8"
+                    action="https://formspree.io/f/xlevpvdb"
+                    method="post"
+                >
+                    <div className="contactus-col2-input1">
+                        <input
+                            className="contactus-inputs"
+                            id="name"
+                            placeholder="Full Name"
+                            name="name"
+                            type="text"
+                        ></input>
+                    </div>
+                    <div className="contactus-col2-input2">
+                        <div className="contactus-col2-input2-sub1">
+                            <input
+                                className="contactus-inputs"
+                                id="name"
+                                placeholder="E-mail"
+                                name="name"
+                                type="text"
+                            ></input>
+                        </div>
+                        <div className="contactus-col2-input2-sub2">
+                            <input
+                                className="contactus-inputs"
+                                id="name"
+                                placeholder="Phone Number"
+                                name="name"
+                                type="text"
+                            ></input>
+                        </div>
+                    </div>
+                    <div className="contactus-col2-input3">
+                        <input
+                            className="contactus-inputs"
+                            id="name"
+                            id="contactus-inputmessage"
+                            placeholder="Your Message Here"
+                            name="name"
+                            type="text"
+                        ></input>
+                    </div>
+                    <div className="contactus-button-">
+                        <button className="contactus-button" type="submit">SUBMIT
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     );

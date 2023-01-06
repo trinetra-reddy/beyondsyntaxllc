@@ -10,17 +10,12 @@ const Whywithus = () => {
             </div>
             <div className="whywithus-content">
                 <div className="whywithus-content-heading">
-                Why Partner with Us
+                    Why Partner with Us
                 </div>
                 <div className="whywithus-content-paragraph">
-                    lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type lorem is simply
-                    dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-                    lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type lorem is simply
-                    dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    Beyond Syntax LLC is a full-service provider of contingent staffing in support of technology solutions for industry leading Enterprise Technology Projects.
+                    Our areas of specialization include Technical Staffing, Training to the Employees, Application Development, Business Strategy,
+                    Human Resources and Talent Acquisition, Information Technology, and Technical Support.
                 </div>
             </div>
         </div>

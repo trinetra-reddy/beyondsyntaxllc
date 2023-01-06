@@ -1,7 +1,7 @@
 @import '../../styles/variables';
 
 .footer {
-    background-color: #0464b0;
+    background-color: $footer-bg;
     display: flex;
     flex-direction: row;
     padding: 30px 150px 30px 150px;
@@ -12,14 +12,14 @@
 }
 .column-1-heading {
     font-weight: 700;
-    color: #fff;
+    color: $white;
     font-size: 16px;
     margin-bottom: 20px;
 }
 .column-1-content {
     font-weight: 500;
     font-size: 14px;
-    color:#fff;
+    color:$white;
 }
 .column-1-content-heading {
    font-weight: 500;
@@ -33,14 +33,14 @@
  }
  .column-2-heading {
     font-weight: 700;
-    color: #fff;
+    color: $white;
     font-size: 16px;
     margin-bottom: 20px;
  }
  .column-2-links ul {
     font-weight: 500;
     font-size: 14px;
-    color:#fff; 
+    color: $white; 
  }
  .column-3 {
     max-width: 400px;
@@ -48,13 +48,13 @@
  }
  .column-3-heading {
     font-weight: 700;
-    color: #fff;
+    color: $white;
     font-size: 16px;
     margin-bottom: 20px;
  }
  .column-3-links ul {
     font-weight: 500;
     font-size: 14px;
-    color:#fff; 
+    color: $white; 
  }
  
