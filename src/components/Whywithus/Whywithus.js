@@ -10,7 +10,7 @@ const Whywithus = () => {
             </div>
             <div className="whywithus-content">
                 <div className="whywithus-content-heading">
-                    How can we help you ?
+                Why Partner with Us
                 </div>
                 <div className="whywithus-content-paragraph">
                     lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's

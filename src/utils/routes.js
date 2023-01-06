@@ -1,4 +1,4 @@
-import { Home, Contact, About, Services, Styleguide } from "../pages";
+import { Home, Contact, About, Services, Styleguide, Itstaffing } from "../pages";
 import { CONSTANTS } from "./constants";
 
 export const routes = [{
@@ -14,8 +14,8 @@ export const routes = [{
     path: CONSTANTS.ROUTES.ABOUT_PAGE,
     isExact: true
 }, {
-    component: <Services />,
-    path: CONSTANTS.ROUTES.SERVICES_PAGE,
+    component: <Itstaffing />,
+    path: CONSTANTS.ROUTES.ITSTAFFING_PAGE,
     isExact: true
 }, {
     component: <Styleguide />,

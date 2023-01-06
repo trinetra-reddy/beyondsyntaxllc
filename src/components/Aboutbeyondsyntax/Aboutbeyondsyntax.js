@@ -9,7 +9,9 @@ const Aboutbeyondsyntax = () => {
             <div className="aboutbeyondsyntax-content">
                 <h2>About BeyondSyntaxllc</h2>
                 <p>lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type  </p>
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type  
+                    lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took</p>
                 <button>VIEW DETAILS</button>
             </div>
         </div>

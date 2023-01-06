@@ -16,5 +16,6 @@ import Weoffer from "./Weoffer/Weoffer";
 import RpoMps from "./RpoMps/RpoMps";
 import Contactusbanner from "./Contactusbanner/Contactusbanner";
 import Contactuscontent from "./Contactuscontent/Contactuscontent";
+import Contactusform from "./Contactusform/Contactusform";
 
-export { Header, Footer, Imagecarousel, Ourservices, Aboutbeyondsyntax, Whywithus, Howcanwehelpyou, Ourtechnologies, Ourclients, Aboutbanner, Whypartnerwithus, Visionmission, Itstaffingbanner, Itstaffingcontent, Weoffer, RpoMps, Contactusbanner, Contactuscontent,};
+export { Header, Footer, Imagecarousel, Ourservices, Aboutbeyondsyntax, Whywithus, Howcanwehelpyou, Ourtechnologies, Ourclients, Aboutbanner, Whypartnerwithus, Visionmission, Itstaffingbanner, Itstaffingcontent, Weoffer, RpoMps, Contactusbanner, Contactuscontent, Contactusform,};

@@ -1,5 +1,9 @@
 @import '../../styles/variables';
 
+
+.ourservices {
+    padding: 20px 150px 20px 150px ;
+}
 .ourservices-heading {
     font-size: 36px;
     text-align: center;
@@ -11,7 +15,6 @@
 .ourservices-container-main {
     display: flex;
     flex-direction: row;
-    margin: 0px 150px 0px 150px;
 }
 .ourservices-container {
     padding: 0px 15px 0px 15px;

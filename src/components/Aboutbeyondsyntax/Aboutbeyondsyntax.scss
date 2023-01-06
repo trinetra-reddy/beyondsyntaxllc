@@ -2,6 +2,7 @@
 
 .aboutbeyondsyntax {
     position: relative;
+    padding: 25px 0px 20px 0px;
 }
 .aboutbeyondsyntax img{
     width: 100%;
@@ -9,10 +10,9 @@
 }
 .aboutbeyondsyntax-content {
     position: absolute;
-    top: 30%;
-    left: 8%;
+    top: 25%;
+    left: 150px;
 }
-
 .aboutbeyondsyntax-content h2{
     color: #fff;
     font-size: 38px;
@@ -33,7 +33,7 @@
     font-weight: 400;
 }
 .aboutbeyondsyntax-content button:hover {
-    background-color: #0464b0;
+    background-color: $primary-color;
 }
 
 

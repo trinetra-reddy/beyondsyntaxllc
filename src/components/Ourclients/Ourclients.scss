@@ -1,5 +1,9 @@
 @import '../../styles/variables';
 
+
+.ourclients {
+    padding: 10px 150px 30px 150px;
+}
 .ourclients-heading {
     font-size: 36px;
     color: #000;
@@ -9,12 +13,11 @@
     padding-bottom: 15px;
 }
 .ourclients-heading-underline {
-    padding: 0px 550px 0px 550px;
+    padding: 0px 450px 0px 450px;
 }
 .ourclients-image-wrapper {
     display: flex;
     flex: row;
-    margin: 0px 150px 0px 150px;
 }
 .ourclients-image img{
     width: 100%;
