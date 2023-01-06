@@ -1,1 +1,46 @@
 @import '../../styles/variables';
+
+
+
+.contactusform {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 150px 0px 150px;
+}
+.contactusform-col1 {
+    flex: 50%;
+}
+.contactusform-col1-heading1 {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+}
+.contactusform-col1-heading2 {
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.contactusform-col1-wrpr1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+.contactusform-col1-wrpr1 img {
+    width: 45px;
+    height: 45px;
+}
+.contactusform-col1-wrpr1-text {
+    padding-left: 20px;
+}
+.contactusform-col1-wrpr1-text-h {
+    font-size: 18px;
+    font-weight: 500;
+}
+.contactusform-col1-wrpr1-text-p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.contactusform-col2 {
+    flex: 60%;
+}
