@@ -25,13 +25,13 @@ const Imagecarousel = () => {
               className="floorplan-swiper"
             >
               <SwiperSlide>
-              <img className="CarouselImage-1" src={image_1} alt="Carouselimage1" />
+              <img className="carouselImage-1" src={image_1} alt="Carouselimage1" />
               </SwiperSlide>
               <SwiperSlide>
-              <img className="CarouselImage-1" src={image_2} alt="Carouselimage1" />
+              <img className="carouselImage-1" src={image_2} alt="Carouselimage1" />
               </SwiperSlide>
               <SwiperSlide>
-              <img className="CarouselImage-1" src={image_3} alt="Carouselimage1" />
+              <img className="carouselImage-1" src={image_3} alt="Carouselimage1" />
               </SwiperSlide>
             </Swiper> 
         </div>
