@@ -8,8 +8,15 @@ header {
     z-index: 997;
     background-color: $primary-color;
 }
+.logo {
+    padding-left: 10px;
+    img {
+        max-height: 20px;
+    }
+}
 
-.navbar {
+ @media screen and (min-width: 992px) {
+    .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,3 +60,5 @@ header {
     border-color: $white;
 
 }
+
+ }
