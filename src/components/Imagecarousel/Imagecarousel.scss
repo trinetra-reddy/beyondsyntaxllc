@@ -1,6 +1,8 @@
 @import '../../styles/variables';
 
+.Imagecarousel-Wrapper {
+    height: calc(100vh - 72px);
+}
 .CarouselImage-1 {
     width: 100%;
-    height: 100vh;
 }
