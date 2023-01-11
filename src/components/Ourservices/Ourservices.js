@@ -20,8 +20,9 @@ const Ourservices = () => {
                     <img src={ourservicesimg_1}  alt="ourserviceimg_1" />
                     <div className="ourservices-content">
                         <h1>IT Staffing</h1>
-                        <p>Beyond Syntax LLC is a full-service provider of contingent
-                             staffing in support of technology solutions for industry leading Enterprise Technology Projects. </p>
+                        <p>Over the past decade, the demand for quality IT candidates has grown tremendously as technology has emerged as a 
+                            fundamental component to a business’s success. Due to the fast-paced and highly technical nature of the field,
+                         </p>
                         <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>

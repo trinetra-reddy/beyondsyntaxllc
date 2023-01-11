@@ -1,4 +1,4 @@
-import { Home, Contact, About, Services, Styleguide, Itstaffing } from "../pages";
+import { Home, Contact, About, Styleguide, Itstaffing } from "../pages";
 import { CONSTANTS } from "./constants";
 
 export const routes = [{

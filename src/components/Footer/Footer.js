@@ -43,9 +43,9 @@ const Footer = () => {
                 </div>
                 <div className="column-3-links">
                     <ul>
-                        <li> Home</li>
+                        <li>Home</li>
                         <li>About us</li>
-                        <li> IT Staffing</li>
+                        <li>IT Staffing</li>
                         <li>Contact Us</li>
                     </ul>
                 </div>

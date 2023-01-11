@@ -1,19 +1,41 @@
 @import '../../styles/variables';
 
 .Whypartnerwithus-heading {
-    font-size: 36px;
+    font-size: 26px;
     color: $black;
     text-align: center;
     font-weight: 500;
     padding: 45px 0px 10px 0px;
 }
 .Whypartnerwithus-heading-underline {
-    padding: 0px 600px 0px 600px;
+    margin: 0px 200px ;
 }
 .Whypartnerwithus-paragraph {
     font-size: 16px;
     color: $black;
     text-align: center;
     font-weight: 300;
-    padding: 15px 150px 60px 150px;
+    padding: 15px 20px 60px 20px;
+}
+@media screen and (min-width: 768px) {
+    .Whypartnerwithus-heading {
+        font-size: 36px;
+    }
+    .Whypartnerwithus-heading-underline {
+        margin: 0px 300px;
+    }
+    .Whypartnerwithus-paragraph {
+        font-size: 16px;
+        padding: 15px 70px 60px 70px;
+    }
+}
+@media screen and (min-width: 1200px) {
+
+
+    .Whypartnerwithus-heading-underline {
+        margin: 0px 500px;
+    }
+    .Whypartnerwithus-paragraph {
+        padding: 15px 150px 60px 150px;
+    }
 }

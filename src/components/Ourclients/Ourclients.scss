@@ -3,8 +3,7 @@
 
 .ourclients {
     display: block;
-    margin-top: 41px;
-    padding: 0 50px;
+    margin: 40px 50px 30px;
 }
 .ourclients-heading {
     font-size: 36px;
@@ -15,7 +14,7 @@
     padding-bottom: 15px;
 }
 .ourclients-heading-underline {
-    padding: 0px 450px 0px 450px;
+    padding: 0px 150px ;
 }
 .ourclients-image-wrapper {
     display: flex;
@@ -23,4 +22,16 @@
 }
 .ourclients-image img{
     width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .ourclients-heading-underline {
+        padding: 0px 250px ;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .ourclients-heading-underline {
+        padding: 0px 400px ;
+    }
 }

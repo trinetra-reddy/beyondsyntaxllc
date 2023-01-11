@@ -34,9 +34,6 @@ const Ourclients = () => {
                     <div className="ourclients-image">
                         <img src={ourclientsimg_5} alt="ourclients-img-5" />
                     </div>
-                    <div className="ourclients-image">
-                        <img src={ourclientsimg_6} alt="ourclients-img-6" />
-                    </div>
                     
                 </div>
         </div>

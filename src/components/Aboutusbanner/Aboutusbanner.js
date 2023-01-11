@@ -8,7 +8,7 @@ const Aboutbanner = () => {
             <img src={bannerimage} alt="bannerimage" />
             <div className="aboutusbanner-content">
             <div className="aboutusbanner-heading">
-                About Us
+                ABOUT US
             </div>
             <div className="aboutusbanner-paragraph">
               BEYONDSYNTAXLLC is an IT Services organization, dedicated to provide the best IT solutions in the areas of Staffing, data management and infrastructure management

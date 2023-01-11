@@ -17,15 +17,14 @@
     color: $white;
     font-size: 28px;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .ourtechnologies-image-wrapper {
     display: flex;
-    flex-direction: row;
-    margin: 0px 70px 0px 70px;
+    flex-direction: column;
 }
 .ourtechnologies-image {
-    padding: 15PX;
+    padding: 10PX;
 }
 .ourtechnologies-image img{
     width: 100%;
@@ -44,4 +43,23 @@
 }
 .ourtechnologies-button-wrapper button:hover {
     background-color: $secondary-color;
+}
+@media screen and (min-width: 768px) {
+
+    .ourtechnologies-contentwrapper {
+        top: 15%;
+    }
+
+    .ourtechnologies-image-wrapper {
+        padding: 0px 30px ;
+        flex-direction: row;
+    }
+   
+}
+@media screen and (min-width: 1200px) {
+    
+    .ourtechnologies-image-wrapper {
+        margin: 0px 70px 0px 70px;
+    }
+    
 }

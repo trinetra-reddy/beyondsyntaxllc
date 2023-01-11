@@ -14,8 +14,8 @@ const Home = () => {
             <Whywithus />
             <Howcanwehelpyou />
             <Ourtechnologies />
-            <Ourclients />
-            <Footer />
+            {/* <Ourclients /> */}
+            <Footer /> 
         </div>
     );
 };

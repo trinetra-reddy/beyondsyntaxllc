@@ -27,9 +27,6 @@ const Ourtechnologies = () => {
             <div className="ourtechnologies-image">
             <img src={image_3}  alt="ourtechnologies-img-3" />
             </div>
-            <div className="ourtechnologies-image">
-            <img src={image_4}  alt="ourtechnologies-img-4" />
-            </div>
         </div>
         <div className="ourtechnologies-button-wrapper">
             <button>MORE TECHNOLOGIES</button>

@@ -12,25 +12,23 @@ const Contactuscontent = () => {
                 <div className="contactuscontent-colum1">
                     <img src={locationicon} alt="locationicon" />
                     <div className="contactuscontent-colum1-heading">USA ADRESS</div>
-                    <div className="contactuscontent-colum1-text">Unicorn Technologies
-                        4080 MCGinnis ferry Rd, Suite 1305,
-                        Alpharetta, GA 30005
+                    <div className="contactuscontent-colum1-text">BEYONDSYNTAXLLC,1138 Europena Drive,Brentwood, CA 94513.
                     </div>
                 </div>
                 <div className="contactuscontent-colum2">
                     <img src={locationicon} alt="locationicon" />
                     <div className="contactuscontent-colum1-heading">INDIA ADRESS</div>
-                    <div className="contactuscontent-colum1-text">Unicorn IT resources Pvt Ltd
-                        IT Hub, Yellandu Cross Road,
-                        Kaviraj Nagar, Khammam,
-                        Telangana 507002
+                    <div className="contactuscontent-colum1-text">BEYONDSYNTAXLLC.com
+                        XX Hub, xxxxxx Cross Road,
+                        xxxxxx street, xxxxxx,
+                        INDIA 00000
                     </div>
                 </div>
                 <div className="contactuscontent-colum3">
                     <img src={phoneicon} alt="locationicon" />
                     <div className="contactuscontent-colum1-heading">PHONE NUMBER</div>
-                    <div className="contactuscontent-colum1-text">(USA): (855) 844-6880
-                    (INDIA): 040-40072327
+                    <div className="contactuscontent-colum1-text">(USA): +1(408)431-5046
+                    (INDIA): +000-00000000
                     </div>
                 </div>
             </div>

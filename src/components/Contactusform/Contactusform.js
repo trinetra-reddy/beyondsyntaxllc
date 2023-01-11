@@ -23,14 +23,14 @@ const Contactusform = () => {
                     <img src={icon_2} alt="icon_1" />
                     <div className="contactus-col1-wrpr1-text">
                         <div className="contactus-col1-wrpr1-text-h">Phone:</div>
-                        <div className="contactus-col1-wrpr1-text-p">+99999999999</div>
+                        <div className="contactus-col1-wrpr1-text-p">+1(408)431-5046</div>
                     </div>
                 </div>
                 <div className="contactus-col1-wrpr1">
                     <img src={icon_3} alt="icon_1" />
                     <div className="contactus-col1-wrpr1-text">
                         <div className="contactus-col1-wrpr1-text-h">Adress</div>
-                        <div className="contactus-col1-wrpr1-text-p">30323, l street, india</div>
+                        <div className="contactus-col1-wrpr1-text-p">1138, Europena Drive,Brentwood, CA 94513.</div>
                     </div>
                 </div>
             </div>
