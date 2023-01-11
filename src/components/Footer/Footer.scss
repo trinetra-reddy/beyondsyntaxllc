@@ -4,22 +4,21 @@
     background-color: $primary-color;
     display: flex;
     flex-direction: column;
-    
+    color: $white;
 }
 .column-1 {
     max-width: 100%;
     padding: 20px 0px 0px 10px ;
+    color: $white;
 }
 .column-1-heading {
     font-weight: 700;
-    color: $black;
     font-size: 16px;
     padding-bottom: 10px;
 }
 .column-1-content {
     font-weight: 500;
     font-size: 14px;
-    color:$black;
 }
 .column-1-content-heading {
    font-weight: 500;
@@ -33,14 +32,12 @@
  }
  .column-2-heading {
     font-weight: 700;
-    color: $black;
     font-size: 16px;
     margin-bottom: 10px;
  }
  .column-2-links ul {
     font-weight: 500;
     font-size: 14px;
-    color: $black; 
  }
  .column-3 {
     max-width: 100%;
@@ -48,19 +45,15 @@
  }
  .column-3-heading {
     font-weight: 700;
-    color: $black;
     font-size: 16px;
     margin-bottom: 10px;
  }
  .column-3-links ul {
     font-weight: 500;
     font-size: 14px;
-    color: $black; 
  }
  @media screen and (min-width: 768px) {
    .footer {
-      background-color: $primary-color;
-      display: flex;
       flex-direction: row;
       padding: 0px 70px;
   }
@@ -69,21 +62,21 @@
       padding-right:10px;
   }
   .column-1-heading {
-      margin-bottom: 20px;
+      padding-bottom: 10px;
   }
    .column-2 {
       flex: 33%;
       padding: 20px 10px 0px 10px;
    }
    .column-2-heading {
-      padding-bottom: 20px;
+      padding-bottom: 10px;
    }
    .column-3 {
       flex: 33%;
       padding: 20px 10px 0px 10px;
    }
    .column-3-heading {
-      padding-bottom: 20px;
+      padding-bottom: 10px;
    }
  }
  @media screen and (min-width: 1200px) {

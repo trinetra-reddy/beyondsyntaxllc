@@ -6,18 +6,20 @@
 }
 .ourtechnologies-backgroundwrapper img{
     width: 100%;
-    height: 70vh;
+    height: 250vh;
 }
 .ourtechnologies-contentwrapper {
     position: absolute;
-    top: 18%;
+    top: 2%;
+    width: 100%;
+    justify-content: center;
 }
 .ourtechnologies-heading {
-    text-align: center;
     color: $white;
     font-size: 28px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .ourtechnologies-image-wrapper {
     display: flex;
@@ -44,7 +46,17 @@
 .ourtechnologies-button-wrapper button:hover {
     background-color: $secondary-color;
 }
+@media screen and (min-width: 425px) {
+    .ourtechnologies-backgroundwrapper img{
+        width: 100%;
+        height: 380vh;
+    }
+}
 @media screen and (min-width: 768px) {
+
+    .ourtechnologies-backgroundwrapper img{
+        height: 90vh;
+    }
 
     .ourtechnologies-contentwrapper {
         top: 15%;
