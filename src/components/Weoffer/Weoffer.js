@@ -1,9 +1,9 @@
 import React from "react";
 import './Weoffer.scss';
-import weofferbg from "../Weoffer/weofferbg.jpg";
-import icon1 from "../Weoffer/weoffericon1.png";
-import icon2 from "../Weoffer/weoffericon2.png";
-import icon3 from "../Weoffer/weoffericon3.png";
+import weofferbg from "../../images/backgroundimg.jpg";
+import icon1 from "../../images/weoffericon1.png";
+import icon2 from "../../images/weoffericon2.png";
+import icon3 from "../../images/weoffericon3.png";
 
 const Weoffer = () => {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import './Whywithus.scss';
-import image from "../Whywithus/whyusimg.jpg";
+import image from "../../images/whywithusimg.jpg";
 
 const Whywithus = () => {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 import './Aboutbeyondsyntax.scss';
-import backgroundimg from "../Aboutbeyondsyntax/aboutbeyondbackgroundimage.jpg";
+import backgroundimg from "../../images/aboutbeyondimg.jpg";
 
 const Aboutbeyondsyntax = () => {
     return (

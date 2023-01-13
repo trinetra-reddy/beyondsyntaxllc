@@ -14,13 +14,23 @@
 .howcanwehelpyou-content-heading {
     font-size: 28px;
     font-weight: 700;
-    padding-bottom: 15px;
     text-align: center;
+}
+.howcanwehelpyou-heading:after {
+    content: '';
+}
+
+.howcanwehelpyou-heading-ul {
+    border-bottom: 2px solid $primary-color;
+    width: 250px;
+    display: block;
+    line-height: 1rem;
 }
 
 .howcanwehelpyou-content-paragraph {
     font-size: 16px;
     font-weight: 400;
+    padding-bottom: 15px;
 }
 
 .howcanwehelpyou-image {

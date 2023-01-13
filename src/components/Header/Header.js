@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './Header.scss';
 import Logo from '../../images/logo.png';
-import menu from "../Header/icon-menu.png";
-import close from "../Header/icon-close.png";
+import menu from "../../images/icon-menu.png";
+import close from "../../images/icon-close.png";
 
 
 const Header = () => {

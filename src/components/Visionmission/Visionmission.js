@@ -1,8 +1,8 @@
 import React from "react";
 import './Visionmission.scss';
-import visionmissionbg from "../Visionmission/ourtechnologiesbg.jpg";
-import visionmissionicon1 from "../Visionmission/visionmissionicon1.png";
-import visionmissionicon2 from "../Visionmission/visionmissionicon2.png";
+import visionmissionbg from "../../images/backgroundimg.jpg";
+import visionmissionicon1 from "../../images/visionmissionicon1.png";
+import visionmissionicon2 from "../../images/visionmissionicon2.png";
 
 const Visionmission = () => {
     return (

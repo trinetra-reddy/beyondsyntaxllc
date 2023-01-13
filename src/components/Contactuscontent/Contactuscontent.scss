@@ -14,8 +14,14 @@
     font-weight: 500;
     position: relative;
 }
+.contactuscontent-heading:after {
+    content: '';
+}
 .contactuscontent-heading-ul {
-    margin: 0px 150px 0px 150px;
+    border-bottom: 2px solid $primary-color;
+    width: 150px;
+    display: block;
+    line-height: 1rem;
 }
 .contactuscontent-colums {
     display: flex;
@@ -44,9 +50,6 @@
     .contactuscontent-heading {
         font-size: 36px;
     }
-    .contactuscontent-heading-ul {
-        margin: 0px 475px 0px 475px;
-    }
     .contactuscontent-colums {
         display: flex;
         flex-direction: row;
@@ -73,11 +76,6 @@
     .contactuscontent {
         margin: 20px 150px 20px 150px;
     }
-   
-    .contactuscontent-heading-ul {
-        margin: 0px 475px 0px 475px;
-    }
-
     .contactuscontent-colum1-heading {
         font-size: 18px;
     }

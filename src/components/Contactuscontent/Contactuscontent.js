@@ -1,13 +1,13 @@
 import React from "react";
 import './Contactuscontent.scss';
-import locationicon from "../Contactuscontent/contactusicon1.png";
-import phoneicon from "../Contactuscontent/contactusicon2.png";
+import locationicon from "../../images/contactusicon1.png";
+import phoneicon from "../../images/contactusicon2.png";
 
 const Contactuscontent = () => {
     return (
         <div className="contactuscontent">
             <div className="contactuscontent-heading">CONTACT US</div>
-            <div className="contactuscontent-heading-ul"><hr /></div>
+            <hr class="contactuscontent-heading-ul"></hr>
             <div className="contactuscontent-colums">
                 <div className="contactuscontent-colum1">
                     <img src={locationicon} alt="locationicon" />

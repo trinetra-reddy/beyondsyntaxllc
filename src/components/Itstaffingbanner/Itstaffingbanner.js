@@ -1,6 +1,6 @@
 import React from "react";
 import './Itstaffingbanner.scss';
-import itstaffingbannerimage from "../Itstaffingbanner/itstaffingbannerimg.jpg";
+import itstaffingbannerimage from "../../images/itstaffingbannerimg.jpg";
 
 const Itstaffingbanner = () => {
     return (
