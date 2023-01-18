@@ -1,6 +1,6 @@
 import React from "react";
 import './Contactusbanner.scss';
-import bannerimage from "../../images/contactusbannerimg.jpg";
+import bannerimage from "../../images/ContactUsbannerimage.jpg";
 
 const Contactusbanner = () => {
     return (
