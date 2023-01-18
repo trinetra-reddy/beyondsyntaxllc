@@ -1,6 +1,7 @@
 import React from "react";
 import './Itstaffingcontent.scss';
 import itstaffingcontentimg from "../../images/backgroundimg.jpg"
+import itstaffingcontentimg2 from "../../images/itstaffing_jobsearch.jpg";
 import icon1 from "../../images/itstaffingcontenticon1.png";
 import icon2 from "../../images/itstaffingcontenticon2.png";
 
@@ -22,7 +23,7 @@ const Itstaffingcontent = () => {
                     </div>
                 </div>
                 <div className="itstaffingcontent-2-image">
-                    <img src={itstaffingcontentimg} alt="itstaffingcontentimage" />
+                    <img src={itstaffingcontentimg2} alt="itstaffingcontentimage" />
                 </div>
             </div>
             <div className="itstaffingcontent-3">
