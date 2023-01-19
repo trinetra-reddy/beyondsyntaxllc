@@ -23,7 +23,7 @@ const Itstaffingcontent = () => {
                     </div>
                 </div>
                 <div className="itstaffingcontent-2-image">
-                    <img src={itstaffingcontentimg2} alt="itstaffingcontentimage" />
+                    <img className="itstaffing-img" src={itstaffingcontentimg2} alt="itstaffingcontentimage" />
                 </div>
             </div>
             <div className="itstaffingcontent-3">
