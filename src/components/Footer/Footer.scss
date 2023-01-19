@@ -52,6 +52,14 @@
     font-weight: 500;
     font-size: 14px;
  }
+ .footer-links li{
+   color: $white;
+   text-decoration: none;
+ }
+ .footer-links a{
+   text-decoration: none;
+ }
+
  @media screen and (min-width: 768px) {
    .footer {
       flex-direction: row;
