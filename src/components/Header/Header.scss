@@ -95,6 +95,9 @@ header {
         display: inline-block;
         padding: 0px;
         border-bottom: 1px solid transparent;
+        &.active {
+            border-bottom-color: $white;
+        }
     }
     .nav__link a:hover {
         border-bottom-color: $white;

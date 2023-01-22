@@ -14,13 +14,12 @@ const Footer = () => {
                         Office address:
                     </div>
                     <div className="column-1-content-paragraph">
-                        Beyondsyntaxllc,
-                        t Hub, Yellandu Cross Road,
-                        Kaviraj Nagar, Khammam,
-                        Telangana 507002.
-
-                        Office: 040-40072327
-                        Email: info@beyondsyntaxllc.com
+                        <p>1138, 
+                        Europena Drive,
+                        Brentwood, CA 94513.</p>
+                        <p>Office: <a href="tel:+1(408)431-5046" className="white-color"> +1(408)431-5046</a></p>
+                        <p>Email: <a href="mailto:info@beyondsyntaxllc.com" className="white-color"> info@beyondsyntaxllc.com</a></p>
+                         
                     </div>
                 </div>
             </div>

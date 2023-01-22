@@ -9,7 +9,7 @@ const Howcanwehelpyou = () => {
             <div className="howcanwehelpyou-content-heading">
                 How can we help you ?
             </div>
-            <hr class="howcanwehelpyou-heading-ul"></hr>
+            <hr className="howcanwehelpyou-heading-ul"></hr>
             <div className="howcanwehelpyou-content-paragraph">
             Beyond Syntax LLC is founded to serve its customers with a core set of values. 
             These core values guide our actions as we engage with our customers, employees, partners, and 

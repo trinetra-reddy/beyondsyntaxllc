@@ -26,7 +26,8 @@
 @media screen and (min-width: 768px) {
     
     .contactusbanner-text{
-        top: 30%;
+    top: 50%;
+    transform: translateY(-50%);
     }
     .contactusbanner-heading {
         font-size: 24px;
@@ -38,10 +39,11 @@
 @media screen and (min-width: 1200px) {
     
     .contactusbanner img{
-        height: 60vh;
+        height: 400px;
     }
     .contactusbanner-text{
-        top: 30%;
+        top: 50%;
+        transform: translateY(-50%);
     }
     .contactusbanner-heading {
         font-size: 28px;

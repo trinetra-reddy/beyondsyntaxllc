@@ -9,7 +9,8 @@
 }
 .aboutusbanner-content {
     position: absolute;
-    top: 25%;
+    top: 50%;
+    transform: translateY(-50%);
     text-align: center;
 }
 .aboutusbanner-heading {
@@ -27,6 +28,7 @@
 
     .aboutusbanner img {
         height: 40vh;
+        min-height: 400px;
     }
 
     .aboutusbanner-heading {

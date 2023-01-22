@@ -10,13 +10,13 @@ const Itstaffingcontent = () => {
         <div className="itstaffingcontent">
             <div className="itstaffingcontent-1">
                 <div className="itstaffingcontent-1-heading">IT STAFFING</div>
-                <hr class="itstaffingcontent-1-heading-ul"></hr>
+                <hr className="itstaffingcontent-1-heading-ul"></hr>
                 <div className="itstaffingcontent-1-paragraph">For any IT (or) Non IT Business to be highly successful, there is only one way that can guarantee optimum results in terms of both overall growth and profit maximization of that particular business and that is “MANPOWER”.</div>
             </div>
             <div className="itstaffingcontent-2">
                 <div className="itstaffingcontent-2-content">
                     <div className="itstaffingcontent-2-content-heading"> How Can We Help You ?</div>
-                    <hr class="itstaffingcontent-2-content-heading-ul"></hr>
+                    <hr className="itstaffingcontent-2-content-heading-ul"></hr>
                     <div className="itstaffingcontent-2-content-paragraph">Beyond Syntax LLC is founded to serve its customers with a core set of values. These core values guide our actions as we engage with our customers, employees, partners, and all whom we serve. We believe strongly in the value of high-quality processes to deliver consistent results,
                      and a continuous improvement process to ensure we can be nimble and adopt quickly to technology, industry and market change.
                         Our areas of specialization include Technical Staffing, Training to the Employees, Application Development, Business Strategy, Human Resources and Talent Acquisition, Information Technology, and Technical Support.

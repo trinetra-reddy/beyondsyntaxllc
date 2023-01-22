@@ -10,7 +10,7 @@ const Ourservices = () => {
     return (
         <div className="ourservices">
             <div className="ourservices-heading">Our services</div>
-            <hr class="ourservices-heading-ul"></hr>
+            <hr className="ourservices-heading-ul"></hr>
             <div className="ourservices-container-main">
                 <div className="ourservices-container">
                     <img src={ourservicesimg_1}  alt="ourserviceimg_1" />
@@ -19,7 +19,6 @@ const Ourservices = () => {
                         <p>Over the past decade, the demand for quality IT candidates has grown tremendously as technology has emerged as a 
                             fundamental component to a business’s success. ,
                          </p>
-                        <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>
                 <div className="ourservices-container">
@@ -28,7 +27,6 @@ const Ourservices = () => {
                         <h1>Data & Infrastructure</h1>
                         <p>Beyond Syntax LLC is a full-service provider of contingent staffing in support of technology solutions 
                             for industry leading Enterprise Technology Projects.  </p>
-                        <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>
                 <div className="ourservices-container">
@@ -37,7 +35,6 @@ const Ourservices = () => {
                         <h1>Enterprise CMS</h1>
                         <p>Beyond Syntax LLC is a full-service provider of contingent staffing in support of technology solutions 
                             for industry leading Enterprise Technology Projects. </p>
-                        <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>
             </div>

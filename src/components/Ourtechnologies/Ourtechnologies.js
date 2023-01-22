@@ -16,7 +16,7 @@ const Ourtechnologies = () => {
                 <div className="ourtech-heading">
                     OUR TECHNOLOGIES
                 </div>
-                <hr class="ourtech-heading-ul"></hr>
+                <hr className="ourtech-heading-ul"></hr>
                 <div className="ourtech-image-wrapper">
                     <div className="ourtech-image">
                         <img src={image_1} alt="ourtech-img-1" />
