@@ -1,6 +1,6 @@
 import React from "react";
 import './Visionmission.scss';
-import visionmissionbg from "../../images/backgroundimg.jpg";
+import visionmissionbg from "../../images/vision-image.jpeg";
 import visionmissionicon1 from "../../images/visionmissionicon1.png";
 import visionmissionicon2 from "../../images/visionmissionicon2.png";
 

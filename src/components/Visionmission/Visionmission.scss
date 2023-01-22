@@ -47,12 +47,13 @@
 
 
     .visionmission-bgwrapper img {
-        height: 50vh;
+        height: auto;
     }
     .visionmission-content {
         padding: 0px 70px 0px 70px;
-        flex-direction: row;
+        flex-direction: column;
         top: 20%;
+        gap: 30px;
     }
     .visionmission-column-1 {
         flex: 50%;
@@ -85,11 +86,12 @@
 @media screen and (min-width: 1200px) {
     
     .visionmission-bgwrapper img {
-        height: 70vh;
+        height: auto;
     }
     .visionmission-content {
         padding: 0px 150px 0px 150px;
         top: 25%;
+        padding-left: 50%;
     }
     .visionmission-column-1 img {
         width: 60px;
