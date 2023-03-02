@@ -9,9 +9,6 @@ import image_3 from "../../images/ourtechappdevimg.jpg";
 const Ourtechnologies = () => {
     return (
         <div className="ourtech">
-            <div className="ourtech-backgroundwrapper">
-                <img src={backgroundimage} alt="backgroundimage" />
-            </div>
             <div className="ourtech-contentwrapper">
                 <div className="ourtech-heading">
                     OUR TECHNOLOGIES

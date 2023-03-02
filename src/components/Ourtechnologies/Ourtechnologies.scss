@@ -1,15 +1,10 @@
 @import '../../styles/variables';
 
 .ourtech {
-    padding: 15px 0px 20px 0px;
-    position: relative;
-}
-.ourtech-backgroundwrapper img{
-    width: 100%;
-    height: 110vh;
+    padding-bottom:50px;
+    background-image: url(../../images/bgimg1.jpg);
 }
 .ourtech-contentwrapper {
-    position: absolute;
     top: 2%;
     width: 100%;
     justify-content: center;
@@ -20,6 +15,7 @@
     font-size: 28px;
     font-weight: 700;
     text-align: center;
+    padding-top:15px;
 }
 .ourtech-heading:after {
     content: '';

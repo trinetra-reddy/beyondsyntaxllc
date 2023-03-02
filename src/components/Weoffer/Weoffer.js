@@ -8,7 +8,6 @@ import icon3 from "../../images/weoffericon3.png";
 const Weoffer = () => {
     return (
         <div className="weoffer">
-            <img src={weofferbg} alt="Weofferbgimage" />
             <div className="weoffer-container">
                 <div className="weoffer-heading">We offer Staffing solutions in three modes which are as follows:</div>
                 <div className="weoffer-content">
