@@ -1,6 +1,6 @@
 import React from "react";
 import './Howcanwehelpyou.scss';
-import image from "../Howcanwehelpyou/howcanwehelpyouimg.png";
+import image from "../../images/howcanwehelpyouimg.png";
 
 const Howcanwehelpyou = () => {
     return (
