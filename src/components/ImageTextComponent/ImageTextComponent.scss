@@ -1,7 +1,6 @@
 @import "../../styles/variables";
 
 .imagetextcomponent {
-  margin-top: 15px;
   display: flex;
   align-items: center;
   flex-direction: column-reverse;
@@ -63,7 +62,7 @@
 @media screen and (min-width: 768px) {
   .imagetextcomponent {
     flex-direction: row;
-    padding: 30px 40px;
+    padding: 0px 40px;
     &.right {
       flex-direction: row-reverse;
     }

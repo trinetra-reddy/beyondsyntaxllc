@@ -1,6 +1,6 @@
 import React from "react";
 import './Itstaffingcontent.scss';
-import itstaffingcontentimg from "../Itstaffingcontent/itstaffingcontentimg.jpg"
+import itstaffingcontentimg from "../../images/itstaffingcontentimg.jpg"
 import icon1 from "../Itstaffingcontent/itstaffingcontenticon1.png";
 import icon2 from "../Itstaffingcontent/itstaffingcontenticon2.png";
 
