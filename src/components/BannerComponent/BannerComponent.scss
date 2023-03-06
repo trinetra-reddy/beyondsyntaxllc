@@ -1,0 +1,36 @@
+@import "../../styles/variables";
+.banner-container {
+  background-image: url(../../images/itstaffing_banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px 20px;
+  text-align: center;
+}
+.banner-heading h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: $white;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+.banner-desc p {
+  font-size: 14px;
+  font-weight: 400;
+  color: $white;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+@media screen and (min-width: 768px) {
+  .banner-container {
+    padding: 40px;
+  }
+}
+@media screen and (min-width: 998px) {
+  .banner-desc p {
+    font-size: 16px;
+  }
+  .banner-container {
+    padding: 60px;
+  }
+}
