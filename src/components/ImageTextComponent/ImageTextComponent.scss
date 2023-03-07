@@ -1,14 +1,13 @@
 @import "../../styles/variables";
 
 .imagetextcomponent {
-  padding: 0 20px;
+  padding: 30px 20px 0;
   display: flex;
   align-items: center;
   flex-direction: column-reverse;
   &.right {
     flex: column;
   }
-  margin-top: 30px;
 }
 
 .imagetextcomponent-content {
@@ -64,7 +63,7 @@
 @media screen and (min-width: 768px) {
   .imagetextcomponent {
     flex-direction: row;
-    padding: 0px 40px;
+    padding: 40px 40px 0;
     &.right {
       flex-direction: row-reverse;
     }
@@ -82,7 +81,7 @@
 }
 @media screen and (min-width: 998px) {
   .imagetextcomponent {
-    padding: 0 60px;
+    padding: 40px 60px 0;
   }
   .imagetextcomponent-content-paragraph {
     font-size: 16px;

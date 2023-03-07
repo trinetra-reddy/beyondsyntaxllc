@@ -10,14 +10,35 @@ import Ourclients from "./Ourclients/Ourclients";
 import Aboutbanner from "./Aboutusbanner/Aboutusbanner";
 import Whypartnerwithus from "./Whypartnerwithus/Whypartnerwithus";
 import Visionmission from "./Visionmission/Visionmission";
-import Itstaffingcontent from "./Itstaffingcontent/Itstaffingcontent";
-import Weoffer from "./Weoffer/Weoffer";
-import RpoMps from "./RpoMps/RpoMps";
+import StaffingSolutions from "./StafffingSolutions/StaffingSolutions";
 import Contactusbanner from "./Contactusbanner/Contactusbanner";
 import Contactuscontent from "./Contactuscontent/Contactuscontent";
 import Contactusform from "./Contactusform/Contactusform";
 import ImageTextComponent from "./ImageTextComponent/ImageTextComponent";
 import BannerComponent from "./BannerComponent/BannerComponent";
 import TextComponent from "./TextComponent/TextComponent";
-import ItStaffingStreams from "./ItStaffingStreams/ItStaffingStreams";
-export { Header, Footer,ImageTextComponent,ItStaffingStreams,BannerComponent,TextComponent, Imagecarousel, Ourservices, Aboutbeyondsyntax, Whywithus, Howcanwehelpyou, Ourtechnologies, Ourclients, Aboutbanner, Whypartnerwithus, Visionmission, Itstaffingcontent, Weoffer, RpoMps, Contactusbanner, Contactuscontent, Contactusform,};
+import ItStaffingStreamsWrapper from "./ItStaffingStreams/ItStaffingStreamsWrapper";
+import ItStaffingOutSourcing from "./ItStaffingStreams/ItStaffingOutSourcing";
+export {
+  Header,
+  Footer,
+  ImageTextComponent,
+  ItStaffingOutSourcing,
+  ItStaffingStreamsWrapper,
+  BannerComponent,
+  TextComponent,
+  Imagecarousel,
+  Ourservices,
+  Aboutbeyondsyntax,
+  Whywithus,
+  Howcanwehelpyou,
+  Ourtechnologies,
+  Ourclients,
+  Aboutbanner,
+  Whypartnerwithus,
+  Visionmission,
+  StaffingSolutions,
+  Contactusbanner,
+  Contactuscontent,
+  Contactusform,
+};
