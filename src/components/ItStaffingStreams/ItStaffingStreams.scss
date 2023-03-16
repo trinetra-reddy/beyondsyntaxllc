@@ -1,0 +1,62 @@
+@import "../../styles/variables";
+@mixin heading{
+  text-align: center;
+  color: $primary-color;
+  font-weight: 600;
+  font-size: 20px;
+}
+.ItStaffingStreams-container {
+  padding: 30px 20px 0;
+  flex: 50%;
+}
+.ItStaffingStreams-icon {
+  text-align: center;
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  &.false {
+    display: none;
+  }
+}
+.ItStaffingStreams-header h1 {
+  @include heading;
+}
+.ItStaffingStreams-context {
+  ul {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-left: 20px;
+    li {
+      padding-top: 8px;
+    }
+  }
+  .ExtraInfo {
+    &.false {
+      display: none;
+    }
+  }
+}
+@media screen and (min-width: 998px) {
+  .ItStaffingStreams-context {
+    ul {
+      font-size: 16px;
+    }
+  }
+  .ItStaffingStreams-header h1 {
+    font-size: 24px;
+  }
+  .Streams-container {
+    padding: 0 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .Streams-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+}

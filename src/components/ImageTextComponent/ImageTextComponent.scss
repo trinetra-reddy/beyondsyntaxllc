@@ -1,6 +1,10 @@
 @import "../../styles/variables";
 
 .imagetextcomponent {
+<<<<<<< HEAD
+=======
+  padding: 30px 20px 0;
+>>>>>>> 992e1ddda50211c570bdabd56fedc3d46dd95c84
   display: flex;
   align-items: center;
   flex-direction: column-reverse;
@@ -15,7 +19,11 @@
 }
 
 .imagetextcomponent-content-heading {
+<<<<<<< HEAD
   font-size: 24px;
+=======
+  font-size: 28px;
+>>>>>>> 992e1ddda50211c570bdabd56fedc3d46dd95c84
   font-weight: 700;
   text-align: center;
   color: $black;
@@ -62,11 +70,16 @@
 @media screen and (min-width: 768px) {
   .imagetextcomponent {
     flex-direction: row;
+<<<<<<< HEAD
     padding: 0px 40px;
+=======
+    padding: 40px 40px 0;
+>>>>>>> 992e1ddda50211c570bdabd56fedc3d46dd95c84
     &.right {
       flex-direction: row-reverse;
     }
   }
+<<<<<<< HEAD
 
   .imagetextcomponent-content {
     width: 550px;
@@ -77,6 +90,11 @@
     font-size: 16px;
   }
 
+=======
+  .imagetextcomponent-content {
+    width: 550px;
+  }
+>>>>>>> 992e1ddda50211c570bdabd56fedc3d46dd95c84
   .imagetextcomponent-image {
     padding-right: 20px;
     &.right {
@@ -85,3 +103,14 @@
     }
   }
 }
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 998px) {
+  .imagetextcomponent {
+    padding: 40px 60px 0;
+  }
+  .imagetextcomponent-content-paragraph {
+    font-size: 16px;
+  }
+}
+>>>>>>> 992e1ddda50211c570bdabd56fedc3d46dd95c84
