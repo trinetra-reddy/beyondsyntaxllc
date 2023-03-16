@@ -1,19 +1,11 @@
 @import "../../styles/variables";
 .textcomponent {
-<<<<<<< HEAD
-  padding: 30px 20px;
-=======
   padding: 30px 20px 0;
   text-align: center;
->>>>>>> 992e1ddda50211c570bdabd56fedc3d46dd95c84
 }
 .textcomponent-heading {
   font-size: 28px;
   color: $black;
-<<<<<<< HEAD
-  text-align: center;
-=======
->>>>>>> 992e1ddda50211c570bdabd56fedc3d46dd95c84
   font-weight: 700;
 }
 .textcomponent-heading:after {
@@ -28,39 +20,22 @@
 }
 .textcomponent-paragraph {
   font-size: 14px;
-<<<<<<< HEAD
-  padding: 16px 0;
-  color: $black;
-  text-align: center;
-=======
   padding: 16px 0 0;
   color: $black;
->>>>>>> 992e1ddda50211c570bdabd56fedc3d46dd95c84
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.2px;
 }
 @media screen and (min-width: 768px) {
   .textcomponent {
-<<<<<<< HEAD
-    padding: 40px;
-=======
     padding: 40px 40px 0;
->>>>>>> 992e1ddda50211c570bdabd56fedc3d46dd95c84
   }
 }
 @media screen and (min-width: 998px) {
   .textcomponent {
-<<<<<<< HEAD
-    padding: 60px;
-  }
-  .textcomponent-paragraph{
-    font-size:16px;
-=======
     padding: 40px 60px 0;
   }
   .textcomponent-paragraph {
     font-size: 16px;
->>>>>>> 992e1ddda50211c570bdabd56fedc3d46dd95c84
   }
 }

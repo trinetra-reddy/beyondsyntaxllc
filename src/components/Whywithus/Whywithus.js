@@ -1,10 +1,6 @@
 import React from "react";
 import './Whywithus.scss';
-<<<<<<< HEAD
-import image from "../../images/whyusimg.jpg";
-=======
 import image from "../../images/whywithusimg.jpg";
->>>>>>> 49da9f71d179afde44913d3939ab41f450684166
 
 const Whywithus = () => {
     return (
