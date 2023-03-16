@@ -9,7 +9,8 @@
 }
 .aboutusbanner-content {
     position: absolute;
-    top: 25%;
+    top: 50%;
+    transform: translateY(-50%);
     text-align: center;
 }
 .aboutusbanner-heading {
@@ -20,13 +21,14 @@
 .aboutusbanner-paragraph {
     color: $white;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     padding: 0px 10px;
 }
 @media screen and (min-width: 768px) {
 
     .aboutusbanner img {
         height: 40vh;
+        min-height: 400px;
     }
 
     .aboutusbanner-heading {

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Footer.scss';
 
 const Footer = () => {
@@ -13,13 +14,12 @@ const Footer = () => {
                         Office address:
                     </div>
                     <div className="column-1-content-paragraph">
-                        Beyondsyntaxllc,
-                        t Hub, Yellandu Cross Road,
-                        Kaviraj Nagar, Khammam,
-                        Telangana 507002.
-
-                        Office: 040-40072327
-                        Email: info@beyondsyntaxllc.com
+                        <p>1138, 
+                        Europena Drive,
+                        Brentwood, CA 94513.</p>
+                        <p>Office: <a href="tel:+1(408)431-5046" className="white-color"> +1(408)431-5046</a></p>
+                        <p>Email: <a href="mailto:info@beyondsyntaxllc.com" className="white-color"> info@beyondsyntaxllc.com</a></p>
+                         
                     </div>
                 </div>
             </div>
@@ -42,11 +42,11 @@ const Footer = () => {
                     Quick Links 
                 </div>
                 <div className="column-3-links">
-                    <ul>
-                        <li>Home</li>
-                        <li>About us</li>
-                        <li>IT Staffing</li>
-                        <li>Contact Us</li>
+                    <ul className="footer-links">
+                        <Link to="/"><li>Home</li></Link>
+                        <Link to="/about-us"><li>About us</li></Link>
+                        <Link to="/it-staffing"><li>IT Staffing</li></Link>
+                        <Link to="/contact-us"><li>Contact Us</li></Link>
                     </ul>
                 </div>
             </div>

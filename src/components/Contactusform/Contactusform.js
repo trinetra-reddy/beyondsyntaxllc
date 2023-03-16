@@ -1,8 +1,8 @@
 import React from "react";
 import './Contactusform.scss';
-import icon_1 from "../Contactusform/contactusicon3.png";
-import icon_2 from "../Contactusform/contactusicon2.png";
-import icon_3 from "../Contactusform/contactusicon1.png";
+import icon_1 from "../../images/contactusicon3.png";
+import icon_2 from "../../images/contactusicon2.png";
+import icon_3 from "../../images/contactusicon1.png";
 
 const Contactusform = () => {
     return (

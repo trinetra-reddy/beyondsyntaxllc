@@ -3,9 +3,9 @@ import React from "react";
 import { Navigation, Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './Imagecarousel.scss';
-import image_1 from "../Imagecarousel/beyondbg1.jpg";
-import image_2 from "../Imagecarousel/beyondbg2.jpg";
-import image_3 from "../Imagecarousel/beyondbg3.jpg";
+import image_1 from "../../images/imagecarouselimg1.jpg";
+import image_2 from "../../images/imagecarouselimg1.jpg";
+import image_3 from "../../images/imagecarouselimg1.jpg";
 
 const Imagecarousel = () => {
     return (

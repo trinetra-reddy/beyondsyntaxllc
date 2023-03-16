@@ -5,6 +5,10 @@ export const routes = [{
     component: <Home />,
     path: CONSTANTS.ROUTES.HOME_PAGE,
     isExact: true
+},{
+    component: <Home />,
+    path: CONSTANTS.ROUTES.HOME,
+    isExact: true
 }, {
     component: <Contact />,
     path: CONSTANTS.ROUTES.CONTACT_PAGE,

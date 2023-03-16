@@ -1,34 +1,31 @@
 import React from "react";
 import './Ourtechnologies.scss';
-import backgroundimage from "../Ourtechnologies/ourtechnologiesbg.jpg";
-import image_1 from "../Ourtechnologies/ourtechnologiesimg_1.jpg";
-import image_2 from "../Ourtechnologies/ourtechnologiesimg_2.jpg";
-import image_3 from "../Ourtechnologies/ourtechnologiesimg_3.jpg";
-import image_4 from "../Ourtechnologies/ourtechnologiesimg_4.jpg";
+import backgroundimage from "../../images/bgimg1.jpg";
+import image_1 from "../../images/ourtechwebdevimg.jpeg";
+import image_2 from "../../images/ourtechitstaffingimg.jpeg";
+import image_3 from "../../images/ourtechappdevimg.jpg";
 
 
 const Ourtechnologies = () => {
     return (
-        <div className="ourtechnologies">
-            <div className="ourtechnologies-backgroundwrapper">
-                <img src={backgroundimage} alt="backgroundimage" />
-            </div>
-            <div className="ourtechnologies-contentwrapper">
-                <div className="ourtechnologies-heading">
+        <div className="ourtech">
+            <div className="ourtech-contentwrapper">
+                <div className="ourtech-heading">
                     OUR TECHNOLOGIES
                 </div>
-                <div className="ourtechnologies-image-wrapper">
-                    <div className="ourtechnologies-image">
-                        <img src={image_1} alt="ourtechnologies-img-1" />
+                <hr className="ourtech-heading-ul"></hr>
+                <div className="ourtech-image-wrapper">
+                    <div className="ourtech-image">
+                        <img src={image_1} alt="ourtech-img-1" />
                     </div>
-                    <div className="ourtechnologies-image">
-                        <img src={image_2} alt="ourtechnologies-img-2" />
+                    <div className="ourtech-image">
+                        <img src={image_2} alt="ourtech-img-2" />
                     </div>
-                    <div className="ourtechnologies-image">
-                        <img src={image_3} alt="ourtechnologies-img-3" />
+                    <div className="ourtech-image">
+                        <img src={image_3} alt="ourtech-img-3" />
                     </div>
                 </div>
-                <div className="ourtechnologies-button-wrapper">
+                <div className="ourtech-button-wrapper">
                     <button>MORE TECHNOLOGIES</button>
                 </div>
             </div>

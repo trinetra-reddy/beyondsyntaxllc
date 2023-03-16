@@ -1,41 +1,48 @@
 @import '../../styles/variables';
 
-.ourtechnologies {
-    padding: 15px 0px 20px 0px;
-    position: relative;
+.ourtech {
+    padding-bottom:50px;
+    background-image: url(../../images/bgimg1.jpg);
 }
-.ourtechnologies-backgroundwrapper img{
-    width: 100%;
-    height: 250vh;
-}
-.ourtechnologies-contentwrapper {
-    position: absolute;
+.ourtech-contentwrapper {
     top: 2%;
     width: 100%;
     justify-content: center;
+    
 }
-.ourtechnologies-heading {
+.ourtech-heading {
     color: $white;
     font-size: 28px;
     font-weight: 700;
-    margin-bottom: 20px;
     text-align: center;
+    padding-top:15px;
 }
-.ourtechnologies-image-wrapper {
+.ourtech-heading:after {
+    content: '';
+}
+
+.ourtech-heading-ul {
+    border-bottom: 2px solid $white;
+    width: 200px;
+    display: block;
+    line-height: 1rem;
+}
+.ourtech-image-wrapper {
     display: flex;
     flex-direction: column;
 }
-.ourtechnologies-image {
-    padding: 10PX;
+.ourtech-image {
+    margin: 10px 20px 10px 20px ;
 }
-.ourtechnologies-image img{
+.ourtech-image img{
     width: 100%;
     border: 2px solid $white;
 }
-.ourtechnologies-button-wrapper {
+.ourtech-button-wrapper {
+    padding-top: 20px ;
     text-align: center;
 }
-.ourtechnologies-button-wrapper button{
+.ourtech-button-wrapper button{
     border: 2px solid $white;
     color: $white;
     font-size: 16px;
@@ -43,26 +50,45 @@
     background: none;
     text-align: center;
 }
-.ourtechnologies-button-wrapper button:hover {
-    background-color: $secondary-color;
+.ourtech-button-wrapper button:hover {
+    background-color: $primary-color;
 }
 @media screen and (min-width: 425px) {
-    .ourtechnologies-backgroundwrapper img{
+    .ourtech-backgroundwrapper img{
         width: 100%;
-        height: 380vh;
+        height: 210vh;
+    }
+    .ourtech-image {
+        margin: 10px 20px 10px 20px ;
+    }
+}
+@media screen and (min-width: 550px) {
+    .ourtech-backgroundwrapper img{
+        width: 100%;
+        height: 230vh;
+    }
+}
+@media screen and (min-width: 660px) {
+    .ourtech-backgroundwrapper img{
+        width: 100%;
+        height: 260vh;
     }
 }
 @media screen and (min-width: 768px) {
 
-    .ourtechnologies-backgroundwrapper img{
+    .ourtech-backgroundwrapper img{
         height: 90vh;
+        min-height: 600px;
     }
 
-    .ourtechnologies-contentwrapper {
+    .ourtech-contentwrapper {
         top: 15%;
     }
+    .ourtech-image {
+        margin: 10px 20px 10px 20px ;
+    }
 
-    .ourtechnologies-image-wrapper {
+    .ourtech-image-wrapper {
         padding: 0px 30px ;
         flex-direction: row;
     }
@@ -70,8 +96,8 @@
 }
 @media screen and (min-width: 1200px) {
     
-    .ourtechnologies-image-wrapper {
-        margin: 0px 70px 0px 70px;
+    .ourtech-image-wrapper {
+        margin: 0px 90px 0px 90px;
     }
     
 }

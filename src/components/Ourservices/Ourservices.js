@@ -1,29 +1,24 @@
 import React from "react";
 import './Ourservices.scss';
-import ourservicesimg_1 from "../Ourservices/ourservicesimg_1.jpg";
-import ourservicesimg_2 from "../Ourservices/ourservicesimg_2.jpg";
-import ourservicesimg_3 from "../Ourservices/ourservicesimg_3.jpg";
+import ourservicesimg_1 from "../../images/ourservicesimg_1.jpg";
+import ourservicesimg_2 from "../../images/ourservicesimg_2.jpg";
+import ourservicesimg_3 from "../../images/ourservicesimg_3.jpg";
 
 
 
 const Ourservices = () => {
     return (
         <div className="ourservices">
-            <div className="ourservices-heading">
-                 Our Services
-                 <div className="ourservices-heading-underline">
-                      <hr/>
-                 </div>
-            </div>
+            <div className="ourservices-heading">Our services</div>
+            <hr className="ourservices-heading-ul"></hr>
             <div className="ourservices-container-main">
                 <div className="ourservices-container">
                     <img src={ourservicesimg_1}  alt="ourserviceimg_1" />
                     <div className="ourservices-content">
                         <h1>IT Staffing</h1>
                         <p>Over the past decade, the demand for quality IT candidates has grown tremendously as technology has emerged as a 
-                            fundamental component to a business’s success. Due to the fast-paced and highly technical nature of the field,
+                            fundamental component to a business’s success. ,
                          </p>
-                        <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>
                 <div className="ourservices-container">
@@ -32,7 +27,6 @@ const Ourservices = () => {
                         <h1>Data & Infrastructure</h1>
                         <p>Beyond Syntax LLC is a full-service provider of contingent staffing in support of technology solutions 
                             for industry leading Enterprise Technology Projects.  </p>
-                        <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>
                 <div className="ourservices-container">
@@ -41,7 +35,6 @@ const Ourservices = () => {
                         <h1>Enterprise CMS</h1>
                         <p>Beyond Syntax LLC is a full-service provider of contingent staffing in support of technology solutions 
                             for industry leading Enterprise Technology Projects. </p>
-                        <button className="ourservices-content-btn">VIEW MORE</button>
                     </div>
                 </div>
             </div>

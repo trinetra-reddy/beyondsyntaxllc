@@ -1,11 +1,11 @@
 import React from "react";
 import './Ourclients.scss';
-import ourclientsimg_1 from "../Ourclients/ourclientsimg_1.jpg";
-import ourclientsimg_2 from "../Ourclients/ourclientsimg_2.jpg";
-import ourclientsimg_3 from "../Ourclients/ourclientsimg_3.jpg";
-import ourclientsimg_4 from "../Ourclients/ourclientsimg_4.jpg";
-import ourclientsimg_5 from "../Ourclients/ourclientsimg_5.jpg";
-import ourclientsimg_6 from "../Ourclients/ourclientsimg_6.jpg";
+import ourclientsimg_1 from "../../images/ourclientsimg_1.jpg";
+import ourclientsimg_2 from "../../images/ourclientsimg_2.jpg";
+import ourclientsimg_3 from "../../images/ourclientsimg_3.jpg";
+import ourclientsimg_4 from "../../images/ourclientsimg_4.jpg";
+import ourclientsimg_5 from "../../images/ourclientsimg_5.jpg";
+import ourclientsimg_6 from "../../images/ourclientsimg_6.jpg";
 
 
 
